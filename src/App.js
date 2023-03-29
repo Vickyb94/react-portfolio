@@ -1,17 +1,22 @@
 import React, { Component } from "react";
 import "./index.css";
-import About from "./component/About";
-import Contact from "./component/Contact";
-import Home from "./component/Home";
-import Project from "./component/Project";
+import About from "./routes/About";
+import Contact from "./routes/Contact";
+import Home from "./routes/Home";
+import Project from "./routes/Project";
+
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
     <>
-       <Component>
-          <Component path="/" element={<Home />}  />
+       <Routes>
+          <Route path="/" element={<Home />}  />
+          <Route path="/about" element={<About />}  />
+          <Route path="/project" element={<Project />}  />
+          <Route path="/contact" element={<Contact />}  />
 
-       </Component>
+       </Routes>
     </>
   );
 }
