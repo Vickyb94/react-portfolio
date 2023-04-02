@@ -1,6 +1,6 @@
 import "./HeroStyles.css";
 
-import React from 'react';
+import React, { Component } from 'react';
 
 //function to parse and render props in project page
 class Hero extends Component {
