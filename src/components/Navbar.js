@@ -12,8 +12,23 @@ const Navbar = () => {
   //function to set click for hamburger menu//
     const [click, onClick]=useState(false);
     const selectClick = () => onClick(!click);
+    
+    //function to change header background color
+    const [color, setColor] = useState(false);
+    const changeColor = () => {
+       if (window.scrollY >= 100) {
+        setColor(true);
+       } else {
+        setColor(false);
+       }
+    };
+
+    //adding eventlistener for color change
+    window.addEventListener("scroll", changeColor);
+
     return (
-        <div className="header">
+        <div className={color ? "hedaer header-bg" :
+          "header"}>
            <Link to="/">
              <h1>Portfolio</h1>
            </Link>
