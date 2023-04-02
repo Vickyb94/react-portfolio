@@ -21,7 +21,10 @@ const Footer = () => {
                 size={30}
                 style={{ color: "#fff",
               marginRight: "1rem"}}/>
-        </div>  
+        </div>
+        <div className="copyright">
+          <p>Vickyb94@2023</p>
+        </div>
     </div>
   )
 }
