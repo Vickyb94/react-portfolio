@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/cw20-react-portfolio/static/css/main.3992d178.css",
+    "main.js": "/cw20-react-portfolio/static/js/main.2e0ca94e.js",
+    "static/media/avatar.png": "/cw20-react-portfolio/static/media/avatar.47edb0e4eea34dcd3734.png",
+    "static/media/bg-img.jpg": "/cw20-react-portfolio/static/media/bg-img.3f30eb814f6a8b1da6e9.jpg",
+    "static/media/FIFA-Fever.png": "/cw20-react-portfolio/static/media/FIFA-Fever.f4d83c51ee5a0db44aab.png",
+    "static/media/CodeCollab.png": "/cw20-react-portfolio/static/media/CodeCollab.de1c5e61e7f1ebfc78e1.png",
+    "static/media/Prework Guide.png": "/cw20-react-portfolio/static/media/Prework Guide.aa66c582a3d0246b5329.png",
+    "index.html": "/cw20-react-portfolio/index.html",
+    "main.3992d178.css.map": "/cw20-react-portfolio/static/css/main.3992d178.css.map",
+    "main.2e0ca94e.js.map": "/cw20-react-portfolio/static/js/main.2e0ca94e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3992d178.css",
+    "static/js/main.2e0ca94e.js"
+  ]
+}
