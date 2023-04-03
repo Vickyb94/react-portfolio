@@ -1,11 +1,20 @@
 import React from 'react';
 
-import { Link } from "react-router-dom";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+import ResumeImg from "../components/ResumeImg";
+
+import Hero from "../components/Hero";
 
 const Resume = () => {
   return (
-    <Link to="./assets/fsd-resume.pdf"></Link>
+    <div>
+      <Navbar/>
+      <Hero heading="Resume" text="Take a quick look at my resume."/>
+      <ResumeImg />
+      <Footer />
+    </div>
   )
 }
 
-export default Resume
+export default Resume;
