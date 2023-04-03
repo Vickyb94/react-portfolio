@@ -3,6 +3,7 @@ import "./FooterStyles.css";
 import React from 'react';
 //import icons
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+
 import { NavLink } from "react-router-dom";
 
 
@@ -10,18 +11,25 @@ const Footer = () => {
   return (
     <div className="footer">
         <div className="social">
-            <FaGithub to="https://github.com/Vickyb94"
-                size={30}
-                style={{ color: "#fff",
-                marginRight: "1rem"}}/>
-            <FaLinkedin
-                size={30}
-                style={{ color: "#fff",
-                marginRight: "1rem"}}/>
-            <FaTwitter
-                size={30}
-                style={{ color: "#fff",
-              marginRight: "1rem"}}/>
+            <a href="https://github.com/Vickyb94">
+              <FaGithub  
+                 size={30}
+                 style={{ color: "#fff",
+                 marginRight: "1rem"}}/>
+            </a>
+            
+            <a href="https://www.linkedin.com/in/victoria-developer/">
+               <FaLinkedin
+                  size={30}
+                  style={{ color: "#fff",
+                  marginRight: "1rem"}}/>
+            </a>
+            <a href="https://twitter.com/eji_row">
+               <FaTwitter
+                  size={30}
+                  style={{ color: "#fff",
+                  marginRight: "1rem"}}/>
+            </a>
         </div>
         <div className="copyright">
           <p>Vickyb94@2023</p>
