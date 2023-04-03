@@ -4,7 +4,6 @@ import React from 'react';
 //import icons
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
-import { NavLink } from "react-router-dom";
 
 
 const Footer = () => {

@@ -13,7 +13,7 @@ const ProjectCard = () => {
        <h1 className="project-heading">Projects</h1>
        <div className="project-container">
            <div className="project-card">
-               <img src={CodeCollab} alt="image" />
+               <img src={CodeCollab} alt="" />
                <h2 className="project-title">CodeCollab</h2>
                <div className="project-details">
                   <p>An application for developers to meet and collaborate with other users. </p>
@@ -24,7 +24,7 @@ const ProjectCard = () => {
                </div>
            </div>
            <div className="project-card">
-               <img src={FifaFever} alt="image" />
+               <img src={FifaFever} alt="" />
                <h2 className="project-title">FIFA-Fever</h2>
                <div className="project-details">
                   <p>A project designed is to pull FIFA World Cup information that is available from different websites into one webpage for easy access. </p>
@@ -35,7 +35,7 @@ const ProjectCard = () => {
                </div>
            </div>
            <div className="project-card">
-               <img src={PreworkGuide} alt="image" />
+               <img src={PreworkGuide} alt="" />
                <h2 className="project-title">Prework-Guide</h2>
                <div className="project-details">
                   <p>
