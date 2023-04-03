@@ -1,0 +1,53 @@
+.about {
+    width: 100%;
+    margin: 3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.about .left {
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+    max-width: 350px;
+}
+
+.about .left .btn {
+    background-color: rgb(209,50,19);
+    color: whitesmoke;
+}
+
+.about .left .btn:hover {
+     background: rgb(228, 196, 228);
+     color: black;
+     transition: 0.3s;
+}
+
+
+.about .left p {
+    margin: 1.2rem 0;
+    font-size: 200%;
+}
+
+.about .right {
+    max-width: 700px;
+}
+
+.right .img-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+
+.right .img {
+    max-width: 90%;
+    border: 1px solid white;
+    grid-column: 4 / -1;
+    grid-row: 1;
+    z-index: 5;
+}
